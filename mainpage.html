@@ -8,6 +8,8 @@
 <body>
 
     <div class="notepad-sidebar">
+        <div class="notebook-cover"></div>
+
         <h3>📓 desk index</h3>
     
         <a href="index.html" class="notepad-link">✧ [ Front Porch ]</a>
@@ -69,12 +71,10 @@
     </div>
 
     <script>
-        // Teleport the camera to the center automatically on page load
         window.onload = function() {
             teleport(2500, 2500, 'auto');
         };
 
-        // The "Olia Lialina" Smooth-Scroll Function
         function teleport(x, y, behavior = 'smooth') {
             window.scrollTo({
                 left: x - (window.innerWidth / 2),
