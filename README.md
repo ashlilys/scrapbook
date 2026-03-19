@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/9a9081e5-61e3-471f-ac28-4ecafcb86f80" width="120"><br>
 
-<a href="index.html">
+<a href="https://ashlilys.github.io/scrapbook/">
   <img src="https://img.shields.io/badge/continue%20to%20scrapbook%20%E2%86%92-ffc0cb?style=for-the-badge&logoColor=black" alt="continue to scrapbook button">
 </a>
 
@@ -19,7 +19,7 @@ my portfolio is inspired by <br>the net art of [olia lialina](https://art.telepo
 <a href="https://github.com/ashlilys/scrapbook/issues/new"><img src="https://img.shields.io/badge/sign%20the%20guestbook-ffc0cb?style=for-the-badge&logo=github&logoColor=black" alt="sign guestbook"></a>
 <a href="https://ashlilys.github.io/scrapbook/counter.html"><img src="https://img.shields.io/badge/visitors-ffc0cb?style=for-the-badge&labelColor=555555&logoColor=black" alt="visitor counter"></a>
 
-<br>*status: 🎧 listening to [pocket beats](https://ashlilys.github.io/pocket-beats/)* *est. march 2026*<br>
+<br><br>*status: 🎧 listening to [pocket beats](https://ashlilys.github.io/pocket-beats/)* *est. march 2026*<br>
 
 <img src="https://github.com/user-attachments/assets/8d971e1f-d3fa-49ed-8789-08cad6db3bc8" width="120">
 
