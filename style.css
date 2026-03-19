@@ -110,3 +110,69 @@ footer {
     from { opacity: 0; } 
     to { opacity: 1; } 
 }
+
+/* --- 8. The Floating Notepad (Sidebar) --- */
+.notepad-sidebar {
+    position: fixed; /* Stays stuck to the screen while you scroll the map */
+    left: -190px;    /* Hidden off-screen, showing just a sliver */
+    top: 50px;
+    width: 230px;
+    height: auto;
+    background: #fffafa;
+    /* Creating the blue notebook lines */
+    background-image: repeating-linear-gradient(#fffafa, #fffafa 24px, #e1efff 25px);
+    border: 1px solid #ddd;
+    border-left: 8px solid #ffc0cb; /* The pink "binding" */
+    padding: 20px 15px;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10000;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    font-family: 'Courier New', monospace;
+}
+
+.notepad-sidebar:hover {
+    left: 0; /* Pops out when hovered */
+}
+
+.notepad-sidebar h3 {
+    margin: 0 0 15px 0;
+    color: #ff69b4;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.notepad-link {
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5c4a44;
+    font-weight: bold;
+}
+
+.notepad-link:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+
+/* --- 9. Project "Polaroid" Style --- */
+.project-sticker {
+    position: absolute; /* Vital for placing things on the 5000px map */
+    background: white;
+    padding: 10px 10px 30px 10px; /* Thicker bottom like a Polaroid */
+    border: 1px solid #ddd;
+    box-shadow: 8px 8px 0px rgba(255, 192, 203, 0.3);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-sticker img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.project-sticker:hover {
+    transform: scale(1.05) rotate(2deg);
+    z-index: 500;
+}
