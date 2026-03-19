@@ -24,4 +24,6 @@ my portfolio is inspired by the net art of [olia lialina](https://art.teleportac
 
 *status: 🎧 listening to [pocket beats](https://ashlilys.github.io/pocket-beats/)* *est. march 2026*
 
+<img src="https://github.com/user-attachments/assets/8d971e1f-d3fa-49ed-8789-08cad6db3bc8" width="150"><br>
+
 </div>
