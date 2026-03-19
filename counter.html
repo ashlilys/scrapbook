@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>visitor log</title>
-	<link rel="icon" type="image/x-icon" href="wing_favicon.png">
+    <link rel="icon" type="image/x-icon" href="wing_favicon.png">
     <style>
         /* 1. Matching Scrollbar */
         ::-webkit-scrollbar { width: 8px; }
@@ -35,7 +35,7 @@
             border: 4px double #ffc0cb;
             box-shadow: 0px 15px 35px rgba(255, 192, 203, 0.4);
             text-align: center;
-            max-width: 320px;
+            width: 320px;
         }
 
         h3 { 
@@ -45,24 +45,35 @@
             font-size: 1.2rem;
         }
 
+        /* 4. Centered Counter Box with Hover Aura */
         .counter-wrapper {
             background: #fffafa;
-            padding: 15px;
-            border-radius: 15px;
-            display: inline-block;
+            padding: 20px;
+            border-radius: 20px;
+            display: flex; /* Centers the image inside */
+            justify-content: center;
+            align-items: center;
             border: 1px dashed #ffc0cb;
-            margin: 10px 0;
-            min-width: 150px;
-            min-height: 40px;
+            margin: 10px auto;
+            width: fit-content; /* Hugs the counter image tightly */
+            min-width: 200px;
+            transition: all 0.5s ease;
         }
 
-        /* 4. Softened Return Button */
+        /* The Pink Aura Animation */
+        .counter-wrapper:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ffc0cb, 0 0 40px #ffdae0;
+            border: 1px solid #ff69b4;
+            background: white;
+        }
+
+        /* 5. Softened Return Button */
         .return-button {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
             background-color: #ffc0cb;
-            /* Changed color from pure black to a soft cocoa brown */
             color: #5c4a44; 
             text-decoration: none;
             border-radius: 10px;
