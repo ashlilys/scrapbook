@@ -6,7 +6,7 @@
 
 <a href="https://ashlilys.github.io/scrapbook/">
   <img src="https://img.shields.io/badge/continue%20to%20scrapbook%20%E2%86%92-ffc0cb?style=for-the-badge&logoColor=black" alt="continue to scrapbook button">
-</a>
+</a><br>
 
 <br>
 
