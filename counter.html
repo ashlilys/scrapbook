@@ -45,36 +45,34 @@
             font-size: 1.2rem;
         }
 
-        /* 4. FIXED: Centered Counter Box with Aura */
+        /* 4. The White Box Wrapper */
         .counter-wrapper {
             background: #fffafa;
             padding: 20px;
             border-radius: 20px;
             border: 1px dashed #ffc0cb;
             margin: 10px auto;
-            
-            /* Centering magic */
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-            
-            /* Dimensions */
-            width: fit-content;
-            min-width: 220px; /* Adjusted to fit the A-SOUL characters better */
+            width: 240px; /* Set a fixed width to keep the aura even */
             transition: all 0.4s ease-in-out;
+            overflow: hidden; /* Keeps the aura clean */
         }
 
-        /* The Pink Aura Animation */
+        /* 5. The Centered Image & Aura Animation */
+        .counter-wrapper img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: all 0.4s ease;
+        }
+
         .counter-wrapper:hover {
             transform: scale(1.03);
             background-color: #ffffff;
             border: 1px solid #ff69b4;
-            /* Layered glow for a soft "aura" effect */
             box-shadow: 0 0 15px #ffc0cb, 0 0 30px #ffe4e8;
-            cursor: help;
         }
-
-        /* 5. Softened Return Button */
+        
+        /* 6. Softened Return Button */
         .return-button {
             display: inline-block;
             margin-top: 20px;
