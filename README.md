@@ -7,7 +7,11 @@ my portfolio is inspired by the net art of [olia lialina](https://art.teleportac
 
 [![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
-<a href="https://ashlilys.github.io/scrapbook/" style="background-color: #ffc0cb; color: black; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">continue to scrapbook →</a>
+<p align="left">
+  <a href="https://ashlilys.github.io/scrapbook/">
+    <img src="https://img.shields.io/badge/continue%20to%20scrapbook%20%E2%86%92-ffc0cb?style=for-the-badge&logoColor=black" alt="continue to scrapbook button">
+  </a>
+</p>
 
 ---
 
