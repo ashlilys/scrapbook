@@ -4,8 +4,7 @@
 
 [![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
-# <code>welcome to ashlilys's portfolio !</code>
-### <i>(..◜ᴗ◝..)</i>
+welcome to ashlilys's portfolio ! (..◜ᴗ◝..)
 
 my portfolio is inspired by the net art of [olia lialina](https://art.teleportacia.org/) ⁠♡ 
 
