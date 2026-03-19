@@ -12,7 +12,7 @@
 
 [![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
-welcome to ashlilys's portfolio ! (..◜ᴗ◝..)
+welcome to ashlilys's <br>portfolio ! (..◜ᴗ◝..)
 
 my portfolio is inspired by <br>the net art of [olia lialina](https://art.teleportacia.org/) ⁠♡ 
 
