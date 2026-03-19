@@ -37,26 +37,27 @@
 
         h3 { color: #ff69b4; letter-spacing: 2px; }
 
-        /* 4. Centered White Box with Pink Aura */
+        /* 4. FIXED: Centered Box with Aura */
         .counter-wrapper {
             background: #fffafa;
             padding: 20px;
             border-radius: 20px;
             border: 1px dashed #ffc0cb;
             margin: 15px auto;
-            display: flex;
+            
+            /* Magic Centering */
+            display: inline-flex;
             justify-content: center;
             align-items: center;
-            min-height: 50px;
+            
+            min-width: 180px;
             transition: all 0.4s ease-in-out;
         }
 
         .counter-wrapper:hover {
             transform: scale(1.05);
-            /* Pink Aura Glow */
             box-shadow: 0 0 20px #ffc0cb, 0 0 40px #ffe4e8;
             background: white;
-            cursor: crosshair;
         }
 
         /* 5. Return Button */
@@ -87,7 +88,9 @@
         <p style="color: #ffb2bf;">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
         
         <div class="counter-wrapper">
-            <img src="https://count.getloli.com/get/@ashlilys-scrapbook?theme=kyun" alt="visitor counter">
+            <a href="https://www.freecounterstat.com" title="website counter">
+                <img src="https://counter9.optistats.ovh/private/freecounterstat.php?c=8zllm6p6jex99t144n894m9u29pne8un" border="0" title="website counter" alt="website counter">
+            </a>
         </div>
         
         <br>
