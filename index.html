@@ -10,20 +10,19 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /* Changed from 'height' to 'min-height' so it can grow if the box is long */
-            min-height: 100vh; 
-            /* 'auto' allows you to scroll if the box is taller than the screen */
-            overflow-y: auto; 
-            /* 'hidden' prevents sideways scrolling into the infinite void */
-            overflow-x: hidden; 
+            /* Force the height and width to match the screen only, not the 5000px */
+            height: 100vh; 
+            width: 100vw;
             margin: 0;
-            /* This ensures the 5000px width from style.css doesn't break the centering */
-            width: 100%; 
+            overflow: hidden; /* This keeps the box perfectly snapped to the center */
         }
 
         .content-container {
-            /* Makes sure the box doesn't hit the very top/bottom of the screen */
-            margin: 40px 0; 
+            /* This ensures the box can't grow larger than the screen so gifs stay visible */
+            max-height: 90vh;
+            overflow-y: auto;
+            width: 85%;
+            max-width: 500px;
         }
     </style>
 </head>
