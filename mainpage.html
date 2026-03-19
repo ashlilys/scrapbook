@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>scrapbook desk - ashlilys</title>
+    <link rel="icon" type="image/x-icon" href="a_favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="notepad-sidebar">
+        <h3>📓 desk index</h3>
+    
+        <a href="index.html" class="notepad-link">✧ [ Front Porch ]</a>
+        <div class="notepad-link" onclick="teleport(2500, 2500)">✧ [ Main Desk ]</div>
+        <div class="notepad-link" onclick="teleport(2000, 1500)">✧ [ About Me ]</div>
+        <div class="notepad-link" onclick="teleport(3000, 3500)">✧ [ Contact ]</div>
+    
+        <hr style="border: none; border-bottom: 1px dashed #ffc0cb; margin: 10px 0;">
+    
+        <div class="notepad-link" onclick="teleport(1200, 800)">📌 Glitch Image</div>
+        <div class="notepad-link" onclick="teleport(3800, 1200)">📌 Meme Mashup</div>
+        <div class="notepad-link" onclick="teleport(800, 4000)">📌 Minecraft</div>
+        <div class="notepad-link" onclick="teleport(4200, 3800)">📌 3D Print</div>
+        <div class="notepad-link" onclick="teleport(2500, 4500)">📌 Net Art</div>
+
+        <br>
+        <small style="color: #ffb2bf; font-size: 10px;">hover to close →</small>
+    </div>
+
+    <div id="welcome-center" class="content-container" style="position: absolute; left: 2500px; top: 2500px; transform: translate(-50%, -50%);">
+        <h2>scrapbook center</h2>
+        <p>hover over the left edge to use the notepad!</p>
+        <img src="http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif">
+    </div>
+
+    <div id="about-me" class="content-container" style="position: absolute; left: 2000px; top: 1500px; transform: translate(-50%, -50%);">
+        <h2>About Me</h2>
+        <p>This is where you can write your story... ૮ ˶ᵔ ᵕ ᵔ˶ ა</p>
+    </div>
+
+    <div id="contact" class="content-container" style="position: absolute; left: 3000px; top: 3500px; transform: translate(-50%, -50%);">
+        <h2>Contact</h2>
+        <p>Find me at: [your links here]</p>
+    </div>
+
+    <div id="glitch" class="project-sticker" style="left: 1200px; top: 800px; transform: rotate(5deg);">
+        <img src="https://via.placeholder.com/200x150" alt="Glitch Art">
+        <p>Glitch Image</p>
+    </div>
+
+    <div id="meme" class="project-sticker" style="left: 3800px; top: 1200px; transform: rotate(-4deg);">
+        <img src="https://via.placeholder.com/200x150" alt="Meme Mashup">
+        <p>Meme Mashup</p>
+    </div>
+
+    <div id="minecraft" class="project-sticker" style="left: 800px; top: 4000px; transform: rotate(2deg);">
+        <img src="https://via.placeholder.com/200x150" alt="Minecraft">
+        <p>Minecraft Build</p>
+    </div>
+
+    <div id="print-3d" class="project-sticker" style="left: 4200px; top: 3800px; transform: rotate(-6deg);">
+        <img src="https://via.placeholder.com/200x150" alt="3D Print">
+        <p>3D Print Design</p>
+    </div>
+
+    <div id="net-art" class="project-sticker" style="left: 2500px; top: 4500px; transform: rotate(3deg);">
+        <img src="https://via.placeholder.com/200x150" alt="Net Art">
+        <p>Net Art Project</p>
+    </div>
+
+    <script>
+        // Teleport the camera to the center automatically on page load
+        window.onload = function() {
+            teleport(2500, 2500, 'auto');
+        };
+
+        // The "Olia Lialina" Smooth-Scroll Function
+        function teleport(x, y, behavior = 'smooth') {
+            window.scrollTo({
+                left: x - (window.innerWidth / 2),
+                top: y - (window.innerHeight / 2),
+                behavior: behavior
+            });
+        }
+    </script>
+
+</body>
+</html>
