@@ -10,9 +10,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Lock the landing page view to one screen */
-            width: 100vw;  /* Ignore the 5000px width just for this page */
-            overflow: hidden; /* Stop people from scrolling away on the landing page */
+            /* Changed from 'height' to 'min-height' so it can grow if the box is long */
+            min-height: 100vh; 
+            /* 'auto' allows you to scroll if the box is taller than the screen */
+            overflow-y: auto; 
+            /* 'hidden' prevents sideways scrolling into the infinite void */
+            overflow-x: hidden; 
+            margin: 0;
+            /* This ensures the 5000px width from style.css doesn't break the centering */
+            width: 100%; 
+        }
+
+        .content-container {
+            /* Makes sure the box doesn't hit the very top/bottom of the screen */
+            margin: 40px 0; 
         }
     </style>
 </head>
