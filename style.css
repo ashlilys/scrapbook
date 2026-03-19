@@ -10,12 +10,12 @@ body {
     background-image: url("pinkpaws.gif");
     background-repeat: repeat; 
     background-attachment: scroll; 
-    width: 5000px; /* Massive width like Olia's */
-    height: 5000px; /* Massive height like Olia's */
+    width: 5000px; 
+    height: 5000px; 
     margin: 0;
     color: #5c4a44; 
     font-family: 'Courier New', monospace; 
-    image-rendering: pixelated; /* Keeps paws looking sharp */
+    image-rendering: pixelated; 
     animation: fadeIn 1.2s ease-in;
 }
 
@@ -29,7 +29,7 @@ body {
     text-align: center;
     border: 4px double #ffc0cb; 
     box-shadow: 0px 15px 35px rgba(255, 192, 203, 0.4);
-    box-sizing: border-box; /* Ensures padding doesn't break layout */
+    box-sizing: border-box; 
     margin: 0 auto;
 }
 
@@ -122,19 +122,38 @@ footer {
     background-image: repeating-linear-gradient(#fffafa, #fffafa 24px, #e1efff 25px);
     border: 1px solid #ddd;
     border-left: 8px solid #ffc0cb; 
-    padding: 20px 15px;
+    border-right: 1px solid #ffcccc; 
+    padding: 20px 15px 20px 45px; /* Added padding to clear the red line */
     transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     z-index: 10000;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
     font-family: 'Courier New', monospace;
-
-    /* --- ADD THESE TWO LINES HERE --- */
-    border-right: 1px solid #ffcccc; 
-    box-shadow: -30px 0 0 -29px #ff8080 inset; 
+    /* Combined both shadows here: Outer shadow + Red margin line */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1), -30px 0 0 -29px #ff8080 inset; 
 }
 
 .notepad-sidebar:hover {
-    left: 0; /* Pops out when hovered */
+    left: 0; 
+}
+
+/* Notebook Cover Styles */
+.notebook-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("notebookcover.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 10001; 
+    pointer-events: none; /* Allows hover to reach the notepad behind it */
+    opacity: 1;
+}
+
+/* Hide cover when hovered */
+.notepad-sidebar:hover .notebook-cover {
+    opacity: 0;
 }
 
 .notepad-sidebar h3 {
@@ -160,9 +179,9 @@ footer {
 
 /* --- 9. Project "Polaroid" Style --- */
 .project-sticker {
-    position: absolute; /* Vital for placing things on the 5000px map */
+    position: absolute; 
     background: white;
-    padding: 10px 10px 30px 10px; /* Thicker bottom like a Polaroid */
+    padding: 10px 10px 30px 10px; 
     border: 1px solid #ddd;
     box-shadow: 8px 8px 0px rgba(255, 192, 203, 0.3);
     text-align: center;
