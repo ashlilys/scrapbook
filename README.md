@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="https://github.com/user-attachments/assets/9a9081e5-61e3-471f-ac28-4ecafcb86f80" width="120">
+
+<br>
+
+<a href="https://ashlilys.github.io/scrapbook/">
+  <img src="https://img.shields.io/badge/continue%20to%20scrapbook%20%E2%86%92-ffc0cb?style=for-the-badge&logoColor=black" alt="continue to scrapbook button">
+</a>
+
+<br><br>
+
 [![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
 welcome to ashlilys's <br>portfolio ! (..◜ᴗ◝..)
