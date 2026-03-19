@@ -3,82 +3,83 @@
 <head>
     <title>ashlilys's scrapbook</title>
     <style>
-        /* 1. Custom Scrollbar (Pocket Beats Style) */
+        /* 1. Custom Scrollbar - Strawberry Milk Style */
         ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #fdf6f3; }
-        ::-webkit-scrollbar-thumb { background: #eecad0; border-radius: 10px; }
-        ::-webkit-scrollbar-thumb:hover { background: #d4a5a9; }
+        ::-webkit-scrollbar-track { background: #fff5f6; }
+        ::-webkit-scrollbar-thumb { background: #ffc0cb; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #ffb2bf; }
 
         /* 2. Base Styles & Entry Animation */
         body { 
-            background-color: #fdf6f3 !important; 
+            background-color: #fff5f6 !important; /* Slightly pinker than Pocket Beats */
             color: #5c4a44 !important; 
             font-family: "Courier New", Courier, monospace; 
             margin: 0;
             display: flex;
             justify-content: center;
             min-height: 100vh;
-            animation: fadeIn 1.2s ease-in;
+            animation: fadeIn 1.5s ease-in;
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        /* 3. Layout Styles (The White Rounded Box) */
+        /* 3. Layout Styles - The "Stationery" Box */
         .content-container {
-            background-color: rgba(255, 255, 255, 0.9); 
-            padding: 40px;
-            border-radius: 30px; /* Extra round like Pocket Beats */
+            background-color: rgba(255, 255, 255, 0.95); 
+            padding: 45px;
+            border-radius: 40px; 
             width: 85%;
             max-width: 500px;
             text-align: center;
             margin: 60px 0; 
-            box-shadow: 0px 10px 30px rgba(238, 202, 208, 0.3); /* Soft pink glow shadow */
-            border: 1px solid rgba(255, 192, 203, 0.3);
+            /* Double border makes it look more like a scrapbook/paper */
+            border: 4px double #ffc0cb; 
+            box-shadow: 0px 15px 35px rgba(255, 192, 203, 0.4);
         }
 
         h1 { 
-            letter-spacing: 3px; 
+            letter-spacing: 4px; 
             margin-bottom: 20px; 
-            font-size: 2rem; 
-            color: #5c4a44; 
-            border-bottom: 2px solid #eecad0; 
+            font-size: 1.8rem; 
+            color: #ff69b4; /* Brighter pink for the title */
+            border-bottom: 1px dashed #ffc0cb; 
             padding-bottom: 10px; 
             display: inline-block; 
         }
 
-        /* 4. Hover Animations for Buttons/Pusheen */
+        /* 4. Interactive Effects */
         .hover-effect {
-            transition: transform 0.4s ease, filter 0.4s ease;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .hover-effect:hover {
-            transform: scale(1.1) rotate(2deg); 
-            filter: drop-shadow(0px 0px 10px #eecad0);
-            cursor: pointer;
+            transform: scale(1.15) rotate(-3deg); 
+            filter: drop-shadow(0px 0px 15px #ffc0cb);
         }
 
         .button-link {
             display: inline-block;
-            margin: 10px 5px;
-            transition: transform 0.3s ease;
+            margin: 12px 6px;
+            transition: all 0.3s ease;
         }
 
         .button-link:hover {
-            transform: translateY(-5px); /* Button floats up slightly */
+            transform: translateY(-8px);
+            filter: brightness(1.05);
         }
 
-        a { text-decoration: none; color: #d4a5a9; font-weight: bold; }
-        a:hover { color: #a67b7b; }
+        a { text-decoration: none; color: #ff69b4; font-weight: bold; }
+        a:hover { color: #5c4a44; text-decoration: underline; }
 
         footer {
             margin-top: 40px;
-            padding-top: 20px;
-            font-size: 12px;
+            padding-top: 25px;
+            font-size: 13px;
             color: #a67b7b;
-            border-top: 1px dashed #eecad0;
+            border-top: 1px solid #fff0f5;
         }
     </style>
 </head>
@@ -86,9 +87,13 @@
 
     <div class="content-container">
         <img src="https://github.com/user-attachments/assets/9a9081e5-61e3-471f-ac28-4ecafcb86f80" 
-             width="120" class="hover-effect">
+             width="130" class="hover-effect">
         
         <br><br>
+
+        <h1>ashlilys's scrapbook</h1>
+
+        <br>
 
         <a href="scrapbook.html" class="button-link">
             <img src="https://img.shields.io/badge/continue%20to%20scrapbook%20%E2%86%92-ffc0cb?style=for-the-badge&logoColor=black" alt="continue">
@@ -96,12 +101,14 @@
 
         <br><br>
         <img src="http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif" alt="divider">
-        <br><br>
+        <br>
 
-        <p>welcome to ashlilys's portfolio ! (..◜ᴗ◝..)</p>
+        <p>welcome to my portfolio ! (..◜ᴗ◝..)</p>
         
-        <p style="font-size: 14px;">my portfolio is inspired by the net art of <br>
-        <a href="https://art.teleportacia.org/" target="_blank">olia lialina</a> ⁠♡</p>
+        <p style="font-size: 14px; line-height: 1.6;">
+            inspired by the net art of <br>
+            <a href="https://art.teleportacia.org/" target="_blank">olia lialina</a> ⁠♡
+        </p>
 
         <img src="http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif" alt="divider">
         <br><br>
@@ -119,7 +126,7 @@
             <small>est. march 2026</small>
             <br><br>
             <img src="https://github.com/user-attachments/assets/8d971e1f-d3fa-49ed-8789-08cad6db3bc8" 
-                 width="100" class="hover-effect" style="opacity: 0.8;">
+                 width="110" class="hover-effect" style="opacity: 0.9;">
         </footer>
     </div>
 
