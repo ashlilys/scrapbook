@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>visitor log</title>
+	<link rel="icon" type="image/x-icon" href="wing_favicon.png">
     <style>
         /* 1. Matching Scrollbar */
         ::-webkit-scrollbar { width: 8px; }
@@ -34,7 +35,7 @@
             border: 4px double #ffc0cb;
             box-shadow: 0px 15px 35px rgba(255, 192, 203, 0.4);
             text-align: center;
-            max-width: 300px;
+            max-width: 320px;
         }
 
         h3 { 
@@ -50,32 +51,49 @@
             border-radius: 15px;
             display: inline-block;
             border: 1px dashed #ffc0cb;
-            margin: 20px 0;
+            margin: 10px 0;
+            min-width: 150px;
+            min-height: 40px;
         }
 
-        a {
+        /* 4. The New Return Button */
+        .return-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ffc0cb;
+            color: black;
             text-decoration: none;
-            color: #a67b7b;
-            font-size: 14px;
-            transition: 0.3s;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 0px #eecad0;
         }
 
-        a:hover {
-            color: #ff69b4;
-            text-decoration: underline;
+        .return-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 6px 0px #eecad0;
+            background-color: #ffb2bf;
+        }
+
+        .return-button:active {
+            transform: translateY(2px);
+            box-shadow: 0px 0px 0px #eecad0;
         }
     </style>
 </head>
 <body>
     <div class="stats-card">
         <h3>total views:</h3>
-        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        <p style="color: #ffb2bf;">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        
         <div class="counter-wrapper">
-            <img src="https://counter9.optistats.ovh/private/freecounterstat.php?c=gumvpxkx" title="free counter" alt="visitor counter" border="0">
+            <img src="https://www.cutiecounter.com/hits.php?id=gumvpxkx&nd=6&style=65" border="0" alt="visitor counter">
         </div>
         
-        <br><br>
-        <a href="index.html">[ return to scrapbook ]</a>
+        <br>
+        <a href="index.html" class="return-button">← return to scrapbook</a>
     </div>
 </body>
 </html>
