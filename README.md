@@ -3,11 +3,12 @@
 [![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
 welcome to ashlilys's portfolio ! (..◜ᴗ◝..)
+
 my portfolio is inspired by the net art of [olia lialina](https://art.teleportacia.org/) ⁠♡ 
 
-[![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
-
 [**continue to scrapbook →**](https://ashlilys.github.io/scrapbook/)
+
+[![glitter divider](http://dl4.glitter-graphics.net/pub/988/988834hh9o6vxkbm.gif)](https://www.glitter-graphics.com)
 
 ---
 
